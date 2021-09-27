@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #831843;
+  --light-pink: #fbcfe8;
+  --off-white: #f3f4f6;
+}
+.container {
+  padding: 0rem 1rem;
+}
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.navigation .link {
+  color: white;
+}
+.nav-pills {
+  text-align: left;
+}
+.nav-brand,
+.link-active {
+  font-weight: bold;
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.link {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}
+label {
+  width: 80vw;
+  display: block;
+  margin-left: 30%;
+}
+
+.angle {
+  width: 40vw;
+  display: block;
+  margin-left: 30%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+button,
+#output,
+#output-hypo,
+#output-area,
+#output-quiz {
+  width: 41.5vw;
+  display: block;
+  margin-left: 30%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.radioDiv {
+  margin-left: 30%;
+  padding: 2rem;
+}
