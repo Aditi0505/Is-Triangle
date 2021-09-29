@@ -1,16 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
-  --primary-color: #831843;
-  --light-pink: #fbcfe8;
+  --primary-color: #292a44;
+  --light-orange: #e46b3f;
   --off-white: #f3f4f6;
+  --light-yellow: #f8b75d;
 }
 .container {
   padding: 0rem 1rem;
 }
 .navigation {
+  display: block;
+  width: 100%;
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-bottom-left-radius: 1rem;
 }
 .navigation .link {
   color: white;
@@ -33,34 +40,57 @@
   padding: 0.5rem 1rem;
   text-decoration: none;
 }
-h1 {
+h1,
+p {
+  color: var(--light-orange);
   text-align: center;
+  padding: 2rem;
 }
 label {
-  width: 80vw;
   display: block;
-  margin-left: 30%;
+  color: var(--light-orange);
+  font-weight: bold;
+  padding: 1rem;
+  text-align: center;
 }
-
-.angle {
-  width: 40vw;
+input {
   display: block;
-  margin-left: 30%;
-  margin-bottom: 1rem;
+  margin-left: 43%;
+}
+input[type="radio"] {
+  display: inline;
+  margin: 0;
+}
+.angle {
   padding: 0.5rem;
 }
-button,
+.radioDiv {
+  text-align: center;
+  padding: 2rem;
+}
+.btn-container {
+  margin-top: 2rem;
+}
+button {
+  display: inline;
+  border-style: none;
+  background-color: var(--light-yellow);
+  color: var(--primary-color);
+  font-weight: bolder;
+  margin-left: 39rem;
+  padding: 0.5rem;
+  border-radius: 10%;
+}
 #output,
 #output-hypo,
 #output-area,
 #output-quiz {
-  width: 41.5vw;
-  display: block;
-  margin-left: 30%;
-  margin-bottom: 1rem;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  color: var(--light-orange);
   padding: 0.5rem;
 }
-.radioDiv {
-  margin-left: 30%;
-  padding: 2rem;
+.quiz-container {
+  color: var(--light-orange);
 }
